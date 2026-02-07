@@ -8,11 +8,6 @@ This project demonstrates deploying and scaling a containerized Nginx applicatio
 - Docker
 - kubectl
 
-## Features
-- Nginx app deployment using Kubernetes Deployment
-- Service exposure using NodePort
-- Horizontal pod scaling
-
 ## Steps to Run
 1. Enable Kubernetes in Docker Desktop
 2. Apply deployment and service files:
@@ -20,6 +15,11 @@ This project demonstrates deploying and scaling a containerized Nginx applicatio
 ```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+
+## Features
+- Nginx app deployment using Kubernetes Deployment
+- Service exposure using NodePort
+- Horizontal pod scaling
 
 ## Resources
 
