@@ -20,3 +20,9 @@ This project demonstrates deploying and scaling a containerized Nginx applicatio
 ```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+
+## Resources
+
+For more details on Kubernetes architecture and concepts, refer to the official docs:  
+(https://kubernetes.io/docs/concepts/architecture/)
+
